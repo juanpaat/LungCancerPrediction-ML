@@ -47,7 +47,8 @@ To set up the environment and install the required dependencies, follow these st
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/lung_cancer_prediction.git
+git clone https://github.com/juanpaat/LungaCanderPrediction-ML.git
+
 cd lung_cancer_prediction
 
 # Create a virtual environment
