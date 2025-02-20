@@ -40,6 +40,7 @@ The dataset consists of 25 features:
 ├── lung_cancer_prediction.ipynb  # Jupyter Notebook for data processing & ML modeling
 ├── lung_cancer_prediction.csv    # Dataset used for training and testing models
 ├── README.md                     # Project documentation
+├── requirements.txt              # Requirements to run the script
 ```
 
 ## Installation & Dependencies
@@ -47,9 +48,9 @@ To set up the environment and install the required dependencies, follow these st
 
 ```bash
 # Clone the repository
-git clone https://github.com/juanpaat/LungaCanderPrediction-ML.git
+git clone https://github.com/juanpaat/LungCanderPrediction-ML.git
 
-cd lung_cancer_prediction
+cd LungCanderPrediction-ML
 
 # Create a virtual environment
 python -m venv venv
@@ -68,7 +69,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost
 Key preprocessing steps performed in the notebook:
 - **Handling missing values**: Checked and imputed missing values if necessary.
 - **Encoding categorical variables**: Converted categorical data to numerical format using label encoding.
-- **Balancing the dataset**: Used techniques like SMOTE or undersampling to balance the classes.
+- **Balancing the dataset**: (SMOTE) Synthetic Minority Over-sampling Technique 
 
 ## Machine Learning Models
 Several machine learning algorithms were tested:
@@ -85,7 +86,6 @@ The models were evaluated using:
 - **Accuracy**: Percentage of correct predictions.
 - **Precision**: True positives / (True positives + False positives).
 - **Recall**: True positives / (True positives + False negatives).
-- **F1-score**: Harmonic mean of precision and recall.
 
 ## Results & Findings
 - **Random Forest and XGBoost** yielded the highest accuracy.
@@ -112,7 +112,7 @@ Contributions are welcome! If you'd like to contribute, feel free to fork the re
 **License:** This project is open-source under the MIT License.
 
 ---
-**Author:** Your Name  
-**Contact:** your.email@example.com  
-**GitHub:** [yourusername](https://github.com/yourusername)
+**Author:** JuanBioData  
+**Contact:** juanpabloalzatetamayo@gmail.com  
+**GitHub:** [juanpaat](https://github.com/juanpaat)
 
