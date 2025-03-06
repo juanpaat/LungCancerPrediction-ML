@@ -109,7 +109,7 @@ The models were evaluated using:
 ## Contributions & License
 Contributions are welcome! If you'd like to contribute, feel free to fork the repository, make modifications, and submit a pull request.
 
-**License:** This project is open-source under the MIT License.
+**License:** This project is open-source.
 
 ---
 **Author:** JuanBioData  
