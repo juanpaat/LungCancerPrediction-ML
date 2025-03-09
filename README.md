@@ -97,7 +97,7 @@ The models were evaluated using:
    ```bash
    jupyter notebook lung_cancer_prediction.ipynb
    ```
-2. Run all cells to preprocess data, train models, and evaluate performance.
+2. Run all cells in order to preprocess data, train models, and evaluate performance.
 3. Modify hyperparameters or algorithms for further experimentation.
 
 ## Future Improvements
