@@ -48,7 +48,7 @@ To set up the environment and install the required dependencies, follow these st
 
 ```bash
 # Clone the repository
-git clone https://github.com/juanpaat/LungCanderPrediction-ML.git
+git clone https://github.com/juanpaat/LungCancerPrediction-ML.git
 
 cd LungCanderPrediction-ML
 
